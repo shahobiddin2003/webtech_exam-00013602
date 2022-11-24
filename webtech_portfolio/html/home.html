@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon" />
+    <title>HOME</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header_logo link_cursor">
+          <span ondblclick="goToHome()"
+            ><img src="../images/logo.svg" alt="site logo" />
+          </span>
+        </div>
+        <div class="header_navbar">
+          <ul class="navbar_list">
+            <li class="navbar_list_item link_cursor">HOME</li>
+            <li onclick="GoToPortfolio()" class="navbar_list_item link_cursor">
+              PORTFOLIO
+            </li>
+            <li onclick="GoToContacts()" class="navbar_list_item link_cursor">
+              CONTACT ME
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main class="main">
+        <section class="alex">
+          <div class="alex_content">
+            <p class="alex_content_info">
+              Hey, I’m Shahobiddin Bekmirzaev and I love building beautiful
+              websites
+            </p>
+            <a href="#directing"
+              ><button class="alex_content_button link_cursor">
+                <img src="../images/alex_btn.png" alt="btn_img" />
+                <p>ABOUT ME</p>
+              </button>
+            </a>
+          </div>
+        </section>
+        <section id="directing" class="aboutme">
+          <img
+            class="about_image"
+            src="../images/about_img.png"
+            alt="imafe_of_a_man"
+            srcset=""
+          />
+
+          <div class="aboutme_info">
+            <div class="detail"></div>
+            <h3 class="aboutme_heading">About Me</h3>
+            <p class="aboutme_content">
+              I’m a junior front-end developer looking for a new role in an
+              exciting company. I focus on writing accessible HTML, using modern
+              CSS practices and writing clean JavaScript. When writing
+              JavaScript code, I mostly use React, but I can adapt to whatever
+              tools are required. I’m based in London, UK, but I’m happy working
+              remotely and have experience in remote teams. When I’m not coding,
+              you’ll find me outdoors. I love being out in nature whether that’s
+              going for a walk, run or cycling. I’d love you to check out my
+              work.
+            </p>
+            <button ondblclick="GoToPortfolio()" class="aboutme_btn">
+              GO TO PORTFOLIO
+            </button>
+            <div class="detail detailbottom"></div>
+          </div>
+        </section>
+
+        <section class="interest">
+          <p class="interest_content">
+            Interested in doing a project together?
+          </p>
+          <div class="detail"></div>
+          <button ondblclick=" GoToContacts() " class="interest_btn">
+            CONTACT ME
+          </button>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer_left">
+            <img
+              class="footer_logo"
+              src="../images/footerlogo.png"
+              alt="footer_logo"
+            />
+            <ul class="footer_navbar">
+              <li ondblclick="goToHome()" class="footer_navbar_item">HOME</li>
+              <li ondblclick="GoToPortfolio()" class="footer_navbar_item">
+                PORTFOLIO
+              </li>
+              <li ondblclick="GoToContacts()" class="footer_navbar_item">
+                CONTACT ME
+              </li>
+            </ul>
+          </div>
+          <div class="footer_right">
+            <img
+              ondblclick="goToGithub()"
+              src="../images/github.png"
+              alt="githublogo"
+            />
+            <img
+              ondblclick="goToTwitter()"
+              src="../images/twitter.png"
+              alt="twitterlogo"
+            />
+            <img
+              ondblclick="goToLinkedn()"
+              src="../images/linkedin.png"
+              alt="linkedinlogo"
+            />
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="../js/homescript.js"></script>
+  </body>
+</html>

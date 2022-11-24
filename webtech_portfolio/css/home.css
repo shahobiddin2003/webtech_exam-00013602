@@ -1,0 +1,173 @@
+@font-face {
+  font-family: ibarra;
+  src: url(../images/static/IbarraRealNova-Regular.ttf);
+}
+.container {
+  margin: 64px 165px;
+}
+
+.link_cursor {
+  cursor: pointer;
+}
+
+#directing {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 54px;
+}
+.header .header_navbar .navbar_list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.header .header_navbar .navbar_list .navbar_list_item {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.header .header_navbar .navbar_list .navbar_list_item:nth-child(1) {
+  color: #5fb4a2;
+}
+.header .header_navbar .navbar_list .navbar_list_item:hover {
+  color: #5fb4a2;
+}
+
+.main .alex {
+  height: 600px;
+  max-width: 1440px;
+  background-image: url(../images/Alex_sec.png);
+  background-size: contain;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+}
+.main .alex .alex_content {
+  width: 445px;
+  height: 357px;
+  background: #fff;
+}
+.main .alex .alex_content .alex_content_info {
+  font-size: 50px;
+  font-family: ibarra;
+  line-height: 50px;
+  margin-bottom: 53px;
+  font-weight: 900;
+  color: #33323d;
+}
+.main .alex .alex_content .alex_content_button {
+  display: flex;
+  width: 200px;
+  height: 48px;
+  border: none;
+  background-color: #203a4c;
+  color: #fff;
+  font-family: sans-serif;
+  gap: 45px;
+}
+
+.aboutme {
+  display: flex;
+  margin-top: 150px;
+  max-width: 1015px;
+}
+.aboutme .about_image {
+  width: 540px;
+  width: 600px;
+}
+.aboutme .aboutme_info {
+  margin-left: 125px;
+  display: flex;
+  flex-direction: column;
+}
+.aboutme .aboutme_info .detail {
+  background-color: #33323d;
+  width: 350px;
+  height: 1px;
+  opacity: 0.15;
+}
+.aboutme .aboutme_info .aboutme_heading {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #33323d;
+}
+.aboutme .aboutme_info .aboutme_content {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: #33323d;
+  width: 350px;
+}
+.aboutme .aboutme_info .aboutme_btn {
+  width: 202px;
+  height: 48px;
+  border: 1px solid #33323d;
+  color: #33323d;
+  background-color: #fff;
+}
+.aboutme .aboutme_info .detailbottom {
+  margin-top: 124px;
+}
+
+.interest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+}
+.interest .interest_content {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: ibarra;
+  width: 350px;
+}
+.interest .detail {
+  background-color: #33323d;
+  width: 350px;
+  height: 1px;
+  opacity: 0.15;
+}
+.interest .interest_btn {
+  width: 202px;
+  height: 48px;
+  border: 1px solid #33323d;
+  color: #33323d;
+  background-color: #fff;
+}
+
+.footer {
+  background-color: #33323d;
+  height: 80px;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+}
+.footer .container .footer_left {
+  display: flex;
+}
+.footer .container .footer_left .footer_logo {
+  width: 61px;
+  height: 32px;
+}
+.footer .container .footer_left .footer_navbar {
+  display: flex;
+  list-style: none;
+  gap: 42px;
+}
+.footer .container .footer_left .footer_navbar .footer_navbar_item {
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+}
+.footer .container .footer_right img {
+  cursor: pointer;
+}/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,266 @@
+@font-face {
+  font-family: ibarra;
+  src: url(../images/static/IbarraRealNova-Regular.ttf);
+}
+.container {
+  margin: 64px 165px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 54px;
+}
+.header .header_navbar .navbar_list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.header .header_navbar .navbar_list .navbar_list_item {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.header .header_navbar .navbar_list .navbar_list_item:nth-child(2) {
+  color: #5fb4a2;
+}
+.header .header_navbar .navbar_list .navbar_list_item:hover {
+  color: #5fb4a2;
+}
+
+.manage {
+  display: flex;
+  margin-top: 150px;
+  max-width: 1015px;
+}
+.manage .manage_image {
+  width: 540px;
+  height: 500px;
+}
+.manage .manage_info {
+  margin-left: 125px;
+  display: flex;
+  flex-direction: column;
+}
+.manage .manage_info .detail {
+  background-color: #33323d;
+  width: 350px;
+  height: 1px;
+  opacity: 0.15;
+}
+.manage .manage_info .manage_heading {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #33323d;
+}
+.manage .manage_info .manage_content {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: #33323d;
+  width: 350px;
+}
+.manage .manage_info .manage_btn {
+  width: 202px;
+  height: 48px;
+  border: 1px solid #33323d;
+  color: #33323d;
+  background-color: #fff;
+}
+.manage .manage_info .detailbottom {
+  margin-top: 124px;
+}
+
+.bookmark {
+  display: flex;
+  margin-top: 150px;
+  max-width: 1015px;
+}
+.bookmark .bookmark_info {
+  margin-right: 125px;
+  display: flex;
+  flex-direction: column;
+}
+.bookmark .bookmark_info .detail {
+  background-color: #33323d;
+  width: 350px;
+  height: 1px;
+  opacity: 0.15;
+}
+.bookmark .bookmark_info .bookmark_heading {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #33323d;
+}
+.bookmark .bookmark_info .bookmark_content {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: #33323d;
+  width: 350px;
+}
+.bookmark .bookmark_info .bookmark_btn {
+  width: 202px;
+  height: 48px;
+  border: 1px solid #33323d;
+  color: #33323d;
+  background-color: #fff;
+}
+.bookmark .bookmark_info .detailbottom {
+  margin-top: 124px;
+}
+.bookmark .bookmark_image {
+  width: 540px;
+  height: 500px;
+}
+
+.insure {
+  display: flex;
+  margin-top: 150px;
+  max-width: 1015px;
+}
+.insure .insure_image {
+  width: 540px;
+  height: 500px;
+}
+.insure .insure_info {
+  margin-left: 125px;
+  display: flex;
+  flex-direction: column;
+}
+.insure .insure_info .detail {
+  background-color: #33323d;
+  width: 350px;
+  height: 1px;
+  opacity: 0.15;
+}
+.insure .insure_info .insure_heading {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #33323d;
+}
+.insure .insure_info .insure_content {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: #33323d;
+  width: 350px;
+}
+.insure .insure_info .insure_btn {
+  width: 202px;
+  height: 48px;
+  border: 1px solid #33323d;
+  color: #33323d;
+  background-color: #fff;
+}
+.insure .insure_info .detailbottom {
+  margin-top: 124px;
+}
+
+.bookmark {
+  display: flex;
+  margin-top: 150px;
+  max-width: 1015px;
+}
+.bookmark .bookmark_info {
+  margin-right: 125px;
+  display: flex;
+  flex-direction: column;
+}
+.bookmark .bookmark_info .detail {
+  background-color: #33323d;
+  width: 350px;
+  height: 1px;
+  opacity: 0.15;
+}
+.bookmark .bookmark_info .bookmark_heading {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #33323d;
+}
+.bookmark .bookmark_info .bookmark_content {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: #33323d;
+  width: 350px;
+}
+.bookmark .bookmark_info .bookmark_btn {
+  width: 202px;
+  height: 48px;
+  border: 1px solid #33323d;
+  color: #33323d;
+  background-color: #fff;
+}
+.bookmark .bookmark_info .detailbottom {
+  margin-top: 124px;
+}
+.bookmark .bookmark_image {
+  width: 540px;
+  height: 500px;
+}
+
+.interest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+}
+.interest .interest_content {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: ibarra;
+  width: 350px;
+}
+.interest .detail {
+  background-color: #33323d;
+  width: 350px;
+  height: 1px;
+  opacity: 0.15;
+}
+.interest .interest_btn {
+  width: 202px;
+  height: 48px;
+  border: 1px solid #33323d;
+  color: #33323d;
+  background-color: #fff;
+}
+
+.footer {
+  background-color: #33323d;
+  height: 80px;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+}
+.footer .container .footer_left {
+  display: flex;
+}
+.footer .container .footer_left .footer_logo {
+  width: 61px;
+  height: 32px;
+}
+.footer .container .footer_left .footer_navbar {
+  display: flex;
+  list-style: none;
+  gap: 42px;
+}
+.footer .container .footer_left .footer_navbar .footer_navbar_item {
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 12px;
+}/*# sourceMappingURL=portfolio.css.map */

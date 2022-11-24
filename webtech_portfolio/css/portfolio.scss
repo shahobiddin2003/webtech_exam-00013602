@@ -1,0 +1,273 @@
+@font-face {
+  font-family: ibarra;
+  src: url(../images/static/IbarraRealNova-Regular.ttf);
+}
+.container {
+  margin: 64px 165px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 54px;
+  .header_navbar {
+    .navbar_list {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+      .navbar_list_item {
+        font-size: 12px;
+        font-family: sans-serif;
+
+        &:nth-child(2) {
+          color: #5fb4a2;
+        }
+
+        &:hover {
+          color: #5fb4a2;
+        }
+      }
+    }
+  }
+}
+.manage {
+  display: flex;
+  margin-top: 150px;
+  max-width: 1015px;
+  .manage_image {
+    width: 540px;
+    height: 500px;
+  }
+  .manage_info {
+    margin-left: 125px;
+    display: flex;
+    flex-direction: column;
+    .detail {
+      background-color: #33323d;
+      width: 350px;
+      height: 1px;
+      opacity: 0.15;
+    }
+
+    .manage_heading {
+      margin-top: 50px;
+      font-weight: 700;
+      font-size: 40px;
+      font-family: sans-serif;
+      color: #33323d;
+    }
+    .manage_content {
+      font-weight: 400;
+      font-size: 16px;
+      font-family: sans-serif;
+      line-height: 30px;
+      color: #33323d;
+      width: 350px;
+    }
+    .manage_btn {
+      width: 202px;
+      height: 48px;
+      border: 1px solid #33323d;
+      color: #33323d;
+      background-color: #fff;
+    }
+    .detailbottom {
+      margin-top: 124px;
+    }
+  }
+}
+.bookmark {
+  display: flex;
+  margin-top: 150px;
+  max-width: 1015px;
+
+  .bookmark_info {
+    margin-right: 125px;
+    display: flex;
+    flex-direction: column;
+    .detail {
+      background-color: #33323d;
+      width: 350px;
+      height: 1px;
+      opacity: 0.15;
+    }
+
+    .bookmark_heading {
+      margin-top: 50px;
+      font-weight: 700;
+      font-size: 40px;
+      font-family: sans-serif;
+      color: #33323d;
+    }
+    .bookmark_content {
+      font-weight: 400;
+      font-size: 16px;
+      font-family: sans-serif;
+      line-height: 30px;
+      color: #33323d;
+      width: 350px;
+    }
+    .bookmark_btn {
+      width: 202px;
+      height: 48px;
+      border: 1px solid #33323d;
+      color: #33323d;
+      background-color: #fff;
+    }
+    .detailbottom {
+      margin-top: 124px;
+    }
+  }
+  .bookmark_image {
+    width: 540px;
+    height: 500px;
+  }
+}
+
+.insure {
+  display: flex;
+  margin-top: 150px;
+  max-width: 1015px;
+  .insure_image {
+    width: 540px;
+    height: 500px;
+  }
+  .insure_info {
+    margin-left: 125px;
+    display: flex;
+    flex-direction: column;
+    .detail {
+      background-color: #33323d;
+      width: 350px;
+      height: 1px;
+      opacity: 0.15;
+    }
+
+    .insure_heading {
+      margin-top: 50px;
+      font-weight: 700;
+      font-size: 40px;
+      font-family: sans-serif;
+      color: #33323d;
+    }
+    .insure_content {
+      font-weight: 400;
+      font-size: 16px;
+      font-family: sans-serif;
+      line-height: 30px;
+      color: #33323d;
+      width: 350px;
+    }
+    .insure_btn {
+      width: 202px;
+      height: 48px;
+      border: 1px solid #33323d;
+      color: #33323d;
+      background-color: #fff;
+    }
+    .detailbottom {
+      margin-top: 124px;
+    }
+  }
+}
+
+.bookmark {
+  display: flex;
+  margin-top: 150px;
+  max-width: 1015px;
+
+  .bookmark_info {
+    margin-right: 125px;
+    display: flex;
+    flex-direction: column;
+    .detail {
+      background-color: #33323d;
+      width: 350px;
+      height: 1px;
+      opacity: 0.15;
+    }
+
+    .bookmark_heading {
+      margin-top: 50px;
+      font-weight: 700;
+      font-size: 40px;
+      font-family: sans-serif;
+      color: #33323d;
+    }
+    .bookmark_content {
+      font-weight: 400;
+      font-size: 16px;
+      font-family: sans-serif;
+      line-height: 30px;
+      color: #33323d;
+      width: 350px;
+    }
+    .bookmark_btn {
+      width: 202px;
+      height: 48px;
+      border: 1px solid #33323d;
+      color: #33323d;
+      background-color: #fff;
+    }
+    .detailbottom {
+      margin-top: 124px;
+    }
+  }
+  .bookmark_image {
+    width: 540px;
+    height: 500px;
+  }
+}
+.interest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+  .interest_content {
+    font-weight: 700;
+    font-size: 40px;
+    font-family: ibarra;
+    width: 350px;
+  }
+  .detail {
+    background-color: #33323d;
+    width: 350px;
+    height: 1px;
+    opacity: 0.15;
+  }
+  .interest_btn {
+    width: 202px;
+    height: 48px;
+    border: 1px solid #33323d;
+    color: #33323d;
+    background-color: #fff;
+  }
+}
+// hereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+.footer {
+  background-color: #33323d;
+  height: 80px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    .footer_left {
+      display: flex;
+      .footer_logo {
+        width: 61px;
+        height: 32px;
+      }
+      .footer_navbar {
+        display: flex;
+        list-style: none;
+        gap: 42px;
+        .footer_navbar_item {
+          font-family: sans-serif;
+          color: #fff;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

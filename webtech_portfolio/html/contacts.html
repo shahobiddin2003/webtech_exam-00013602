@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/contacts.css" />
+    <title>Contacts</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div ondblclick="goToHome()" class="header_logo">
+          <img src="../images/logo.svg" alt="site logo" />
+        </div>
+        <div class="header_navbar">
+          <ul class="navbar_list">
+            <li ondblclick="goToHome() " class="navbar_list_item">HOME</li>
+            <li ondblclick="GoToPortfolio()" class="navbar_list_item">
+              PORTFOLIO
+            </li>
+            <li ondblclick="GoToContacts()" class="navbar_list_item">
+              CONTACT ME
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main class="main">
+        <div class="detail"></div>
+        <section class="getintouch">
+          <div class="getintouch_left">
+            <h3 class="getintouch_left_title">Get in Touch</h3>
+          </div>
+          <div class="getintouch_right">
+            <p class="getintouch_right_content">
+              I’d love to hear about what you’re working on and how I could
+              help. I’m currently looking for a new role and am open to a wide
+              range of opportunities. My preference would be to find a position
+              in a company in London. But I’m also happy to hear about
+              opportunites that don’t fit that description. I’m a hard-working
+              and positive person who will always approach each task with a
+              sense of purpose and attention to detail. Please do feel free to
+              check out my online profiles below and get in touch using the
+              form.
+            </p>
+            <div class="getintouch_right_logolinks">
+              <img
+                ondblclick="goToGithub()"
+                src="../images/contact_github.svg"
+                alt="github"
+                class="github_logo"
+              />
+              <img
+                ondblclick="goToTwitter()"
+                src="../images/contact_twitter.svg"
+                alt="twitter"
+                class="twitter_logo"
+              />
+              <img
+                ondblclick="goToLinkedn()"
+                src="../images/contact_linkedn.svg"
+                alt="linkedin"
+                class="linkedn_logo"
+              />
+            </div>
+          </div>
+        </section>
+        <div class="detail detailbootom"></div>
+        <section class="contact">
+          <div class="contact_right">
+            <h3 class="contact_right_title">Contact Me</h3>
+          </div>
+          <div class="contact_left">
+            <form action="" class="contact_inputs">
+              <h6 class="name">Name</h6>
+              <input placeholder="Michail Jordan" type="text" class="input" />
+              <h6 class="name email">Email Address</h6>
+              <input
+                placeholder="michailjordan@gmail.com"
+                type="email"
+                class="input"
+              />
+              <h6 class="name message">Message</h6>
+              <input placeholder="How can I help? " type="text" class="input" />
+              <button class="send">SEND MESSAGE</button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_left">
+          <img
+            ondblclick="goToHome()"
+            class="footer_logo"
+            src="../images/footerlogo.png"
+            alt="footer_logo"
+          />
+          <ul class="footer_navbar">
+            <li ondblclick="goToHome()" class="footer_navbar_item">HOME</li>
+            <li ondblclick="GoToPortfolio()" class="footer_navbar_item">
+              PORTFOLIO
+            </li>
+            <li ondblclick="GoToContacts()" class="footer_navbar_item">
+              CONTACT ME
+            </li>
+          </ul>
+        </div>
+        <div class="footer_right">
+          <img
+            ondblclick="goToGithub()"
+            src="../images/github.png"
+            alt="githublogo"
+          />
+          <img
+            ondblclick="goToTwitter()"
+            src="../images/twitter.png"
+            alt="twitterlogo"
+          />
+          <img
+            ondblclick="goToLinkedn()"
+            src="../images/linkedin.png"
+            alt="linkedinlogo"
+          />
+        </div>
+      </div>
+    </footer>
+    <script src="../js/homescript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,251 @@
+@font-face {
+  font-family: ibarra;
+  src: url(../images/static/IbarraRealNova-Regular.ttf);
+}
+.container {
+  margin: 64px 165px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 54px;
+}
+.header .header_navbar .navbar_list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.header .header_navbar .navbar_list .navbar_list_item {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.header .header_navbar .navbar_list .navbar_list_item:nth-child(2) {
+  color: #5fb4a2;
+}
+.header .header_navbar .navbar_list .navbar_list_item:hover {
+  color: #5fb4a2;
+}
+
+.bookmark_herosection .herosection_img {
+  width: 1110px;
+  height: 500px;
+}
+
+.bookmark_project {
+  margin-top: 115px;
+  display: flex;
+}
+.bookmark_project .bookmark_info {
+  margin-right: 125px;
+  display: flex;
+  flex-direction: column;
+}
+.bookmark_project .bookmark_info .detail {
+  background-color: #33323d;
+  width: 350px;
+  height: 1px;
+  opacity: 0.15;
+}
+.bookmark_project .bookmark_info .bookmark_heading {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #33323d;
+}
+.bookmark_project .bookmark_info .bookmark_content {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: #33323d;
+  width: 350px;
+}
+.bookmark_project .bookmark_info .design_link {
+  font-weight: 700;
+  font-size: 16px;
+  color: #5fb4a2;
+  font-family: sans-serif;
+}
+.bookmark_project .bookmark_info .frontend_link {
+  font-weight: 700;
+  font-size: 16px;
+  color: #5fb4a2;
+  font-family: sans-serif;
+  margin-bottom: 32px;
+}
+.bookmark_project .bookmark_info .bookmark_btn {
+  width: 202px;
+  height: 48px;
+  border: 1px solid #33323d;
+  color: #33323d;
+  background-color: #fff;
+}
+.bookmark_project .bookmark_info .detailbottom {
+  margin-top: 124px;
+}
+.bookmark_project .project_background .background_heading {
+  color: #33323d;
+  font-weight: 400;
+  font-size: 32px;
+  font-family: ibarra;
+  margin-top: 0;
+}
+.bookmark_project .project_background .background_info {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #33323d;
+  opacity: 0.8;
+}
+.bookmark_project .project_background .statistics_heading {
+  color: #33323d;
+  font-weight: 400;
+  font-size: 32px;
+  font-family: ibarra;
+  margin-top: 0;
+}
+.bookmark_project .project_background .first_statistics .first_statistics_img {
+  width: 635px;
+  height: 400px;
+}
+.bookmark_project .project_background .second_statistics {
+  margin-top: 32px;
+}
+.bookmark_project .project_background .second_statistics .second_statistics_img {
+  width: 635px;
+  height: 400px;
+}
+
+.page_turning {
+  display: flex;
+}
+.page_turning .turning_btn_left {
+  width: 555px;
+  height: 130px;
+  background-color: #fff;
+  border: 0.5px solid rgba(151, 151, 151, 0.15);
+  border-left: none;
+}
+.page_turning .turning_btn_right {
+  width: 555px;
+  height: 130px;
+  background-color: #fff;
+  border: 0.5px solid rgba(151, 151, 151, 0.15);
+  border-right: none;
+}
+
+.page_turning {
+  margin-top: 64px;
+}
+.page_turning .turning_btn_left {
+  display: flex;
+}
+.page_turning .turning_btn_left .page {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 32px;
+}
+.page_turning .turning_btn_left .page .page_decor {
+  width: 8px;
+  height: 16px;
+}
+.page_turning .turning_btn_left .page .page_content .page_content_title {
+  font-weight: 400;
+  font-size: 32px;
+  color: #33323d;
+  font-family: ibarra;
+  margin: 0 5px;
+  margin-top: 32px;
+}
+.page_turning .turning_btn_left .page .page_content .page_description {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.5;
+  color: #33323d;
+}
+.page_turning .turning_btn_right {
+  display: flex;
+  justify-content: right;
+}
+.page_turning .turning_btn_right .page {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 32px;
+}
+.page_turning .turning_btn_right .page .page_decor {
+  width: 8px;
+  height: 16px;
+  transform: rotate(180deg);
+}
+.page_turning .turning_btn_right .page .page_content .page_content_title {
+  font-weight: 400;
+  font-size: 32px;
+  color: #33323d;
+  font-family: ibarra;
+  margin: 0 5px;
+  margin-top: 32px;
+}
+.page_turning .turning_btn_right .page .page_content .page_description {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.5;
+  color: #33323d;
+}
+
+.interest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+}
+.interest .interest_content {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: ibarra;
+  width: 350px;
+}
+.interest .detail {
+  background-color: #33323d;
+  width: 350px;
+  height: 1px;
+  opacity: 0.15;
+}
+.interest .interest_btn {
+  width: 202px;
+  height: 48px;
+  border: 1px solid #33323d;
+  color: #33323d;
+  background-color: #fff;
+}
+
+.footer {
+  background-color: #33323d;
+  height: 80px;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+}
+.footer .container .footer_left {
+  display: flex;
+}
+.footer .container .footer_left .footer_logo {
+  width: 61px;
+  height: 32px;
+}
+.footer .container .footer_left .footer_navbar {
+  display: flex;
+  list-style: none;
+  gap: 42px;
+}
+.footer .container .footer_left .footer_navbar .footer_navbar_item {
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 12px;
+}/*# sourceMappingURL=bookmark.css.map */

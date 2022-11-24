@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/portfolio.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header_logo">
+          <img
+            ondblclick="goToHome()"
+            src="../images/logo.svg"
+            alt="site logo"
+          />
+        </div>
+        <div class="header_navbar">
+          <ul class="navbar_list">
+            <li ondblclick="goToHome()" class="navbar_list_item">HOME</li>
+            <li ondblclick="GoToPortfolio()" class="navbar_list_item">
+              PORTFOLIO
+            </li>
+            <li ondblclick="GoToContacts()" class="navbar_list_item">
+              CONTACT ME
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main class="main">
+        <section class="manage">
+          <img
+            class="manage_image"
+            src="../images/portfolio_manage.png"
+            alt="manage_image"
+          />
+
+          <div class="manage_info">
+            <div class="detail"></div>
+            <h3 class="manage_heading">Manage</h3>
+            <p class="manage_content">
+              This project required me to build a fully responsive landing page
+              to the designs provided. I used HTML5, along with CSS Grid and
+              JavaScript for the areas that required interactivity, such as the
+              testimonial slider.
+            </p>
+            <button ondblclick="goToManage()" class="manage_btn">
+              VIEW PROJECT
+            </button>
+            <div class="detail detailbottom"></div>
+          </div>
+        </section>
+        <section class="bookmark">
+          <div class="bookmark_info">
+            <div class="detail"></div>
+            <h3 class="bookmark_heading">Bookmark</h3>
+            <p class="bookmark_content">
+              This project required me to build a fully responsive landing page
+              to the designs provided. I used HTML5, along with CSS Grid and
+              JavaScript for the areas that required interactivity, such as the
+              features section.
+            </p>
+            <button ondblclick="goToBookmark()" class="bookmark_btn">
+              VIEW PROJECT
+            </button>
+            <div class="detail detailbottom"></div>
+          </div>
+          <img
+            class="bookmark_image"
+            src="../images/portfolio_bookmark.png"
+            alt="bookmark_image"
+          />
+        </section>
+
+        <section class="insure">
+          <img
+            class="manage_image"
+            src="../images/portfolio_insure.png"
+            alt="insure_image"
+          />
+
+          <div class="insure_info">
+            <div class="detail"></div>
+            <h3 class="insure_heading">Insure</h3>
+            <p class="insure_content">
+              This was a small project which mostly consisted of HTML and CSS. I
+              built a fully-responsive landing page. The only JavaScript this
+              project required was to enable the toggling of the mobile
+              navigation.
+            </p>
+            <button ondblclick="goToInsure()" class="insure_btn">
+              VIEW PROJECT
+            </button>
+            <div class="detail detailbottom"></div>
+          </div>
+        </section>
+
+        <section class="bookmark">
+          <div class="bookmark_info">
+            <div class="detail"></div>
+            <h3 class="bookmark_heading">Fylo</h3>
+            <p class="bookmark_content">
+              This project was built in pure HTML and CSS. I had mobile and
+              desktop designs to work to and built it so that it was
+              fully-responsive. I took a mobile-first approach and used modern
+              CSS like Flexbox and Grid for layout purposes.
+            </p>
+            <button ondblclick="goToFylo()" class="bookmark_btn">
+              VIEW PROJECT
+            </button>
+            <div class="detail detailbottom"></div>
+          </div>
+          <img
+            class="bookmark_image"
+            src="../images/portfolio_fylo.png"
+            alt="bookmark_image"
+          />
+        </section>
+        <section class="interest">
+          <p class="interest_content">
+            Interested in doing a project together?
+          </p>
+          <div class="detail"></div>
+          <button ondblclick="GoToContacts()" class="interest_btn">
+            CONTACT ME
+          </button>
+        </section>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_left">
+          <img
+            class="footer_logo"
+            src="../images/footerlogo.png"
+            alt="footer_logo"
+          />
+          <ul class="footer_navbar">
+            <li ondblclick="goToHome()" class="footer_navbar_item">HOME</li>
+            <li ondblclick="GoToPortfolio()" class="footer_navbar_item">
+              PORTFOLIO
+            </li>
+            <li ondblclick="GoToContacts()" class="footer_navbar_item">
+              CONTACT ME
+            </li>
+          </ul>
+        </div>
+        <div class="footer_right">
+          <img
+            ondblclick="goToGithub()"
+            src="../images/twitter.png"
+            alt="twitterlogo"
+          />
+          <img
+            ondblclick="goToTwitter()"
+            src="../images/linkedin.png"
+            alt="linkedinlogo"
+          />
+          <img
+            ondblclick="goToLinkedn()"
+            src="../images/github.png"
+            alt="githublogo"
+          />
+        </div>
+      </div>
+    </footer>
+    <script src="../js/homescript.js"></script>
+  </body>
+</html>
